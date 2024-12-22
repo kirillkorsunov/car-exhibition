@@ -1,1 +1,1 @@
-# car-exhibition
+# еустовый проект по верстке макета https://www.figma.com/design/pLnM7X9KdeXdfMLpQOWDO0/автовыходные?node-id=574-2885&t=Owv3tm96SO5rSl4X-0
