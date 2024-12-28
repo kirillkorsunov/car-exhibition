@@ -1,0 +1,55 @@
+.header {
+    padding: 38px 0 90px;
+    background: url('../images/header-background.jpg')no-repeat center/cover;
+
+}
+
+.header__block {
+    height: 38px;
+}
+
+.header__block_top {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header__logo {
+    width: 159;
+    height: 38;
+}
+
+.header__partners {
+    width: 575px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header__data {
+    margin-top: 209px;
+}
+
+.header__title, .header__text {
+    margin-top: 40px;
+}
+
+.header__buttons-wrapper {
+    display: flex;
+    margin-top:30px ;
+}
+
+.header__buttons-wrapper> .button:first-child {
+    margin-right: 24px;
+}
+
+.header__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 162px;
+    cursor: pointer;
+
+
+}

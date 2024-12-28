@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 577px;
+    list-style-type: none;
+    
+}
+
+.menu__item {
+
+}
+
+.menu__link {
+   font-weight: 400;
+   font-size: 14px;
+   text-decoration: none;
+   color: var(--main-text-color);
+}
+
+.menu_link_active {
+    color: var(--main-background-color-button);
+
+}

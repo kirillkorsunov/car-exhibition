@@ -1,5 +1,10 @@
 @import  './normilize.css';
 @import './fonts.css';
+@import './colors.css';
+/*blocks*/
+@import './menu.css';
+@import './header.css';
+@import'./button.css';
 
 *{
     box-sizing: border-box;
@@ -7,6 +12,31 @@
     font-style: normal;
 }
 
-div {
-    font-weight: 500; 
+
+.container {
+  padding: 0 195px;
 }
+
+.title {
+  font-family: Unbounded;
+font-size: 86px;
+font-weight: 500;
+line-height: 86px;
+
+}
+
+.descriptor {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text {
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+
