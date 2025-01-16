@@ -1,4 +1,31 @@
 .menu {
+    height: 114px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.menu__wrapper {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    transition: .4s background-color, .4s top;
+}
+
+
+.menu:hover .menu__wrapper {
+    top:0;
+    background-color: var(--menu-background-color);
+}
+
+.menu__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,9 +43,11 @@
    font-size: 14px;
    text-decoration: none;
    color: var(--main-text-color);
+   transition:.5s color;
 }
 
-.menu_link_active {
+.menu__link:hover {
     color: var(--main-background-color-button);
+
 
 }
