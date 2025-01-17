@@ -3,6 +3,11 @@
     --menu-background-color: rgba(246, 245, 245, 50%);
     --secondary-background-color: #D0E4D9; 
     --tertiary--background-color: #F6F9F1;
+    
+    --main-border-color: #C1C1C1;
+    /* competitions block */
+        --main-competitions-block-background-color: #D2E3ED;
+        --secondary-competitions-block-background-color: #353535;
 
     /*photo-link*/
     --photo-link-main-background-color: #8EAAAB; 
@@ -10,6 +15,7 @@
     /*text*/
     --main-text-color: #1E1E25;
     --secondary-text-color: #FFFFFF;
+    --tertiary-text-color: #9090A6;
     /*main-button*/
    --main-background-color-button :#6C79EC;
    --main-button-border-color:#6C79EC;
@@ -22,5 +28,15 @@
    --secondary-button-background-color:#6C79EC;
    --secondary-button-text-color:#FFFFFF;
   
+    /* tertiary-button */
+    --tertiary-button-backgound-color: #D0E4D9;
+    --tertiary-button-text-color: #373737;
 
+    /* ticket */
+    --ticket-backgound-color: #FFFFFF;
+    --ticket-divider-backgound-color: #1E1E25;
+
+    /* border */
+    --main-border-color: #9090A6;
+    --secondary-border-color: #D1D1DE;
 }

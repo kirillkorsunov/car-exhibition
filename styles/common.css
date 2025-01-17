@@ -1,9 +1,3 @@
-.common
-
-body::-webkit-scrollbar-track {
-  background-color
-}
-
 .container {
   width: 100%;
   padding: 0 195px;
@@ -11,8 +5,7 @@ body::-webkit-scrollbar-track {
 }
 
 .title {
-  margin: 0;
- font-family: Unbounded;
+ margin: 0;
 font-size: 86px;
 font-weight: 500;
 line-height: 86px;
@@ -25,6 +18,14 @@ line-height: 86px;
   line-height: 50px;
 }
 
+.caption {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  color: var(--main-text-color);
+}
+
 .descriptor {
   margin: 0;
   font-size: 20px;
@@ -33,21 +34,63 @@ line-height: 86px;
   color: var(--main-text-color);
 }
 
-.descriptor_secondary {
-  color: var(--secondary-text-color);
-
-}
 
 .text {
 
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
+color: var(--main-text-color);
+}
 
+.caption_secondary,
+.descriptor_secondary,
+.text_seconadry {
+    color: var(--secondary-text-color);
 }
 
 .link {
   cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+  .container {
+      padding: 0 47px;
+  }
 
+  .descriptor {
+      font-size: 16px;
+      line-height: 20.8px;
+  }
+
+  .title {
+      font-size: 50px;
+      line-height: 50px;
+  }
+
+  .text {
+      font-size: 15px;
+      line-height: 22.5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+      padding: 0 18px;
+  }
+
+  .descriptor {
+      font-size: 16px;
+      line-height: 24px;
+  }
+
+  .title {
+      font-size: 28px;
+      line-height: 28px;
+  }
+
+  .text {
+      font-size: 14px;
+      line-height: 21px;
+  }
+              

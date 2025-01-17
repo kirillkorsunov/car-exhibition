@@ -39,11 +39,10 @@
 }
 
 .header__arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 162px;
+    display: block;
+    position: relative;
+    margin: 162px auto 0;
+    width: 28px;
+    height: 7px;
     cursor: pointer;
-
-
 }
